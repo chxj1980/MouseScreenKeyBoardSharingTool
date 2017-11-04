@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnet.a  CMakeFiles/net.dir/IDataSocket.o CMakeFiles/net.dir/NetworkAddress.o CMakeFiles/net.dir/SecureListenSocket.o CMakeFiles/net.dir/SecureSocket.o CMakeFiles/net.dir/SocketMultiplexer.o CMakeFiles/net.dir/TCPListenSocket.o CMakeFiles/net.dir/TCPSocket.o CMakeFiles/net.dir/TCPSocketFactory.o CMakeFiles/net.dir/XSocket.o
+/usr/bin/ranlib libnet.a

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+./lib/common/Version.h
+common/common.h
+./lib/common/common/common.h
+
+./lib/common/common.h
+config.h
+./lib/common/config.h
+wchar.h
+-
+stddef.h
+-
+assert.h
+-
+stdlib.h
+-
+string.h
+-
+
+./lib/config.h
+
+/home/meng/opensource/synergy/synergy-core/src/lib/common/Version.cpp
+common/Version.h
+/home/meng/opensource/synergy/synergy-core/src/lib/common/common/Version.h
+

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+./ext/gtest/include/gtest/gtest_prod.h
+
+/home/meng/opensource/synergy/synergy-core/src/lib/shared/EditionType.h
+
+/home/meng/opensource/synergy/synergy-core/src/lib/shared/SerialKey.cpp
+SerialKey.h
+/home/meng/opensource/synergy/synergy-core/src/lib/shared/SerialKey.h
+fstream
+-
+iostream
+-
+algorithm
+-
+vector
+-
+climits
+-
+sstream
+-
+iomanip
+-
+stdexcept
+-
+
+/home/meng/opensource/synergy/synergy-core/src/lib/shared/SerialKey.h
+string
+-
+ctime
+-
+EditionType.h
+/home/meng/opensource/synergy/synergy-core/src/lib/shared/EditionType.h
+gtest/gtest_prod.h
+-
+
